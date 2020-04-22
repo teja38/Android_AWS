@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        app:columnCount="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="5">
+
+        <Button
+            android:id="@+id/kitchen_wall_light"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/roof_light"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/kitchen_dim_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/light2_on"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/kitchen_exhaust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exhaust_1"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/kitchen_oven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oven"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+        <Button
+            android:id="@+id/kitchen_fridge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/fridgeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fridge"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/kitchen_chimney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/chimneyImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chimneyon"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+        <Button
+            android:id="@+id/templeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/templeimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/temple"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+        <Button
+            android:id="@+id/kitchen_socket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/socket"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

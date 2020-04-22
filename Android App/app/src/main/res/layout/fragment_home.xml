@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        app:columnCount="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="5">
+
+        <Button
+            android:id="@+id/hall_wall_light"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/roof_light"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/hall_dim_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/light2_on"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/hall_Fan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fan_off"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/hall_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ac_off"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@+id/hall_socket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/socket_3"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+        <Button
+            android:id="@+id/hall_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:tag="OFF"
+            android:text="OFF"
+            android:textSize="18sp"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <ImageView
+            android:id="@+id/hall_tv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tv_icon_1"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+        <ImageView
+            android:id="@+id/hall_temp_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/temperature_in"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+
+        <TextView
+            android:id="@+id/hallTextInTemp"
+            android:text="°C"
+            android:textAlignment="gravity"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="422dp" />
+
+
+        <ImageView
+            android:id="@+id/outdoor_temp_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/humidity_1"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25" />
+        <TextView
+            android:id="@+id/hallHumid"
+            app:layout_columnWeight="0.25"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="0.25"
+            android:textColor="@color/design_default_color_background"
+            android:text="%"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="422dp" />
+
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
